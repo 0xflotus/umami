@@ -15,13 +15,13 @@ A detailed getting started guide can be found at [https://umami.is/docs/](https:
 
 ### Install Yarn
 
-```
+```bash
 npm install -g yarn
 ```
 
 ### Get the source code and install packages
 
-```
+```bash
 git clone https://github.com/umami-software/umami.git
 cd umami
 yarn install
@@ -31,7 +31,7 @@ yarn install
 
 Create an `.env` file with the following
 
-```
+```properties
 DATABASE_URL=connection-url
 ```
 
